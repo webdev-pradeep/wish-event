@@ -15,7 +15,7 @@ const Message = () => {
     <>
       <section className="  gap-10 flex flex-col   justify-center items-center   md:grid md:justify-center md:gap-15 md:mt-25 md:w-[100%] ">
         <img
-          src="src/assets/Durga_Mata.png"
+          src="src/assets/Durga_Mata.jpg"
           alt="maa durga ki photo"
           className=" h-70 w-70  object-contain border-4 border-white animate-pulse transition-all duration-200 delay-100  shadow-2xl  shadow-black rounded-2xl bg-black md:h-60 md:w-70 md:ml-35 md:object-contain md:bg-gradient-to-t md:to-pink-400 md:from-red-600 md:rounded-lg  md:shadow-2xl md:shadow-black md:brightness-90 md:contrast-150 md:transition md:ease-in-out md:delay-150  md:hover:scale-140 md:duration-[0.5s] md:hover:animate-none md:animate-bounce   "
         />
