@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+body{
+    @apply bg-gradient-to-r to-yellow-200 from-pink-300 
+}
