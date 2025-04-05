@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
+import durgaMaa from "../assets/maa_durga.jpg";
 
 const Home = () => {
   const [inputValue, setInputValue] = useState();
@@ -15,7 +16,7 @@ const Home = () => {
     <>
       <section className="w-[100%] flex justify-center items-center mt-10  md:flex md:justify-center md:mt-25 ">
         <img
-          src="src/assets/Durga_Mata.jpg"
+          src={durgaMaa}
           alt="maa durga ki photo"
           className="  contrast-150 rounded-2xl shadow-2xl shadow-black hover:scale-150 animate-pulse brightness-110 duration-75 ease-in-out h-65 w-60 object-contain  md:h-72 md:w-72  md:object-contain md:bg-gradient-to-t md:to-pink-400 md:from-red-600 md:rounded-lg  md:shadow-2xl md:shadow-black md:brightness-90  md:transition md:ease-in-out md:delay-150  md:hover:scale-140 md:duration-[0.5s] md:hover:animate-none md:animate-ping  "
         />
